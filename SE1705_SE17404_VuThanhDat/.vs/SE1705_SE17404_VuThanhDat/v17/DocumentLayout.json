@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_repositories\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|solutionrelative:bookmanagement_repositories\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_repositories\\iorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|solutionrelative:bookmanagement_repositories\\iorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_repositories\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|solutionrelative:bookmanagement_repositories\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_repositories\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|solutionrelative:bookmanagement_repositories\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_repositories\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55442D7-B9F2-45D7-BC60-BCF82F6F1162}|BookManagement_Repositories\\BookManagement_Repositories.csproj|solutionrelative:bookmanagement_repositories\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_daos\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|solutionrelative:bookmanagement_daos\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_daos\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|solutionrelative:bookmanagement_daos\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_daos\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|solutionrelative:bookmanagement_daos\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_daos\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|solutionrelative:bookmanagement_daos\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_daos\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610B5BC0-5C54-4DB5-B54B-0DAB2792086C}|BookManagement_Daos\\BookManagement_Daos.csproj|solutionrelative:bookmanagement_daos\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\lab01_bookmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|solutionrelative:lab01_bookmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\lab01_bookmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|solutionrelative:lab01_bookmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\lab01_bookmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|solutionrelative:lab01_bookmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\lab01_bookmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|solutionrelative:lab01_bookmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\bookmanagement_businessobjects\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF01989B-2F95-48B7-9A48-15413C8E15D7}|BookManagement_BusinessObjects\\BookManagement_BusinessObjects.csproj|solutionrelative:bookmanagement_businessobjects\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|e:\\newuniversitystuff\\prn221\\asignment\\se1705_se17404_vuthanhdat\\lab01_bookmanagement\\lab01_bookmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8DFC657-D3D9-4C53-A5DF-E4ECAB2A01EE}|Lab01_BookManagement\\Lab01_BookManagement.csproj|solutionrelative:lab01_bookmanagement\\lab01_bookmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOrderDetail.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IOrderDetail.cs",
+              "RelativeDocumentMoniker": "BookManagement_Repositories\\IOrderDetail.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IOrderDetail.cs",
+              "RelativeToolTip": "BookManagement_Repositories\\IOrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:38:24.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepo.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\ICategoryRepo.cs",
+              "RelativeDocumentMoniker": "BookManagement_Repositories\\ICategoryRepo.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\ICategoryRepo.cs",
+              "RelativeToolTip": "BookManagement_Repositories\\ICategoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:38:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "BookManagement_Repositories\\IOrderRepo.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IOrderRepo.cs",
+              "RelativeToolTip": "BookManagement_Repositories\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:37:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccountRepo.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IAccountRepo.cs",
+              "RelativeDocumentMoniker": "BookManagement_Repositories\\IAccountRepo.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IAccountRepo.cs",
+              "RelativeToolTip": "BookManagement_Repositories\\IAccountRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:36:45.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookRepo.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IBookRepo.cs",
+              "RelativeDocumentMoniker": "BookManagement_Repositories\\IBookRepo.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Repositories\\IBookRepo.cs",
+              "RelativeToolTip": "BookManagement_Repositories\\IBookRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:36:00.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Lab01_BookManagement\\App.xaml.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\App.xaml.cs",
+              "RelativeToolTip": "Lab01_BookManagement\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:31:02.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\App.xaml",
+              "RelativeDocumentMoniker": "Lab01_BookManagement\\App.xaml",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\App.xaml",
+              "RelativeToolTip": "Lab01_BookManagement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T03:31:06.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\OrderDetail.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\OrderDetail.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:15:41.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Order.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\Order.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Order.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:00:52.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Book.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\Book.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Book.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:17:01.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Account.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\Account.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Account.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:17:00.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lab01_BookManagement.csproj",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\Lab01_BookManagement.csproj",
+              "RelativeDocumentMoniker": "Lab01_BookManagement\\Lab01_BookManagement.csproj",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\Lab01_BookManagement.csproj",
+              "RelativeToolTip": "Lab01_BookManagement\\Lab01_BookManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-17T07:16:27.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "BookManagement_Daos\\CategoryDAO.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\CategoryDAO.cs",
+              "RelativeToolTip": "BookManagement_Daos\\CategoryDAO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:08:02.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailDAO.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\OrderDetailDAO.cs",
+              "RelativeDocumentMoniker": "BookManagement_Daos\\OrderDetailDAO.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\OrderDetailDAO.cs",
+              "RelativeToolTip": "BookManagement_Daos\\OrderDetailDAO.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:07:44.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "BookManagement_Daos\\OrderDAO.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\OrderDAO.cs",
+              "RelativeToolTip": "BookManagement_Daos\\OrderDAO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:07:25.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookDAO.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\BookDAO.cs",
+              "RelativeDocumentMoniker": "BookManagement_Daos\\BookDAO.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\BookDAO.cs",
+              "RelativeToolTip": "BookManagement_Daos\\BookDAO.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:07:05.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "BookManagement_Daos\\AccountDAO.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_Daos\\AccountDAO.cs",
+              "RelativeToolTip": "BookManagement_Daos\\AccountDAO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:06:55.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Category.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\Category.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\Category.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:58:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookManagementContext.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\BookManagementContext.cs",
+              "RelativeDocumentMoniker": "BookManagement_BusinessObjects\\BookManagementContext.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\BookManagement_BusinessObjects\\BookManagementContext.cs",
+              "RelativeToolTip": "BookManagement_BusinessObjects\\BookManagementContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:58:37.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab01_BookManagement\\MainWindow.xaml",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\MainWindow.xaml",
+              "RelativeToolTip": "Lab01_BookManagement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T09:38:11.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab01_BookManagement\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\NewUniversityStuff\\PRN221\\Asignment\\SE1705_SE17404_VuThanhDat\\Lab01_BookManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab01_BookManagement\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:38:04.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
