@@ -11,7 +11,7 @@ namespace BookManagement_Daos
 	{
 		private BookManagementContext context;
 		private static BookDAO instance = null;
-		public BookDAO Instance
+		public static BookDAO Instance
 		{
 			get
 			{
@@ -23,7 +23,12 @@ namespace BookManagement_Daos
 			}
 			
 		}
-		public List<Book> GetBooks() => context.Books.ToList();
+
+        public BookDAO()
+        {
+            context = new BookManagementContext();
+        }
+        public List<Book> GetBooks() => context.Books.ToList();
 		public Book GetBook(int id) => context.Books.SingleOrDefault(b => b.Id == id);
 
 		public bool AddBook(Book book)

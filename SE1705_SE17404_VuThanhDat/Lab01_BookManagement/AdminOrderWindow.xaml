@@ -1,0 +1,28 @@
+﻿<Window x:Class="Lab01_BookManagement.AdminOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab01_BookManagement"
+        mc:Ignorable="d"
+        Title="AdminOrderWindow" Height="500
+        " Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0,0,0,-134">
+        <Label Content="Admin Order Management" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Margin="0,10,0,0"/>
+
+        <!-- Order DataGrid -->
+        <Label Content="Orders" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top"/>
+        
+
+        <!-- OrderDetail DataGrid -->
+        <Label Content="Order Details" HorizontalAlignment="Left" Margin="20,237,0,0" VerticalAlignment="Top"/>
+        
+
+        <!-- Action Buttons -->
+        <Button Content="Edit Order Detail" HorizontalAlignment="Left" Margin="82,439,0,0" VerticalAlignment="Top" Width="100" Click="btnEditOrderDetail_Click"/>
+        <Button Content="Delete Order Detail" HorizontalAlignment="Left" Margin="326,439,0,0" VerticalAlignment="Top" Width="100" Click="btnDeleteOrderDetail_Click"/>
+        <Button Content="Close" HorizontalAlignment="Right" Margin="0,434,39,0" VerticalAlignment="Top" Width="100" Click="btnClose_Click"/>
+        <DataGrid x:Name="dgOrder" HorizontalAlignment="Left" Height="116" Margin="43,101,0,0" VerticalAlignment="Top" Width="699" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dgOrder_SelectionChanged"/>
+        <DataGrid x:Name="dgOrderDetail" HorizontalAlignment="Left" Height="101" Margin="42,281,0,0" VerticalAlignment="Top" Width="700" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>

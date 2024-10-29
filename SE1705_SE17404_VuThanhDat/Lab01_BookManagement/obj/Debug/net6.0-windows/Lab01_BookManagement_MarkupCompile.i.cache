@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\Lab01_BookManagement\App.xaml
-11407045341
+41494435877
 
-6-158693680
-194975967418
-MainWindow.xaml;
+9-248708268
+218-659174709
+AdminOrderWindow.xaml;AdminWindow.xaml;MainWindow.xaml;UserWindow.xaml;
 
-False
+True
 

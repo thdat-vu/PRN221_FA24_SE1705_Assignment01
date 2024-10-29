@@ -1,0 +1,15 @@
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\bin\Debug\net6.0\BookManagement_Daos.deps.json
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\bin\Debug\net6.0\BookManagement_Daos.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\bin\Debug\net6.0\BookManagement_Daos.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\bin\Debug\net6.0\BookManagement_BusinessObjects.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\bin\Debug\net6.0\BookManagement_BusinessObjects.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.csproj.AssemblyReference.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.GeneratedMSBuildEditorConfig.editorconfig
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.AssemblyInfoInputs.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.AssemblyInfo.cs
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.csproj.CoreCompileInputs.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookMana.BEE6D4FC.Up2Date
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\refint\BookManagement_Daos.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\BookManagement_Daos.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Daos\obj\Debug\net6.0\ref\BookManagement_Daos.dll

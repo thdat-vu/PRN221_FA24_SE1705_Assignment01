@@ -11,7 +11,7 @@ namespace BookManagement_Daos
 	{
 		private static CategoryDAO instance = null;
 		private BookManagementContext context;
-		public CategoryDAO Instance
+		public static CategoryDAO Instance
 		{
 			get
 			{

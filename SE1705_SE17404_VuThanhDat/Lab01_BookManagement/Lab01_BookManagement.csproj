@@ -8,4 +8,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookManagement_Services\BookManagement_Services.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
 </Project>

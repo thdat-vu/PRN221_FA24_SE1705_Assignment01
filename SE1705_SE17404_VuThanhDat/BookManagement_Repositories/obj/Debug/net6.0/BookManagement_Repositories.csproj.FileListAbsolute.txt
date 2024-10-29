@@ -1,0 +1,17 @@
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_Repositories.deps.json
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_Repositories.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_Repositories.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_BusinessObjects.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_Daos.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_Daos.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\bin\Debug\net6.0\BookManagement_BusinessObjects.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.csproj.AssemblyReference.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.AssemblyInfoInputs.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.AssemblyInfo.cs
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.csproj.CoreCompileInputs.cache
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookMana.64C4E728.Up2Date
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\refint\BookManagement_Repositories.dll
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\BookManagement_Repositories.pdb
+E:\NewUniversityStuff\PRN221\Asignment\SE1705_SE17404_VuThanhDat\BookManagement_Repositories\obj\Debug\net6.0\ref\BookManagement_Repositories.dll

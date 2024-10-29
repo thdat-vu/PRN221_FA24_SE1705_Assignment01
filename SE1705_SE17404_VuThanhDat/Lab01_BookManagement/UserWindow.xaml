@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lab01_BookManagement.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab01_BookManagement"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Orders Section -->
+        <Label Content="Your Orders" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <DataGrid x:Name="dgUserOrders" Margin="10,50,400,189" 
+                  AutoGenerateColumns="False" SelectionChanged="dgUserOrders_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding Id}" Width="*"/>
+                <DataGridTextColumn Header="Order Date" Binding="{Binding OrderDate}" Width="*"/>
+                <DataGridTextColumn Header="Total Amount" Binding="{Binding TotalAmount}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Order Details Section -->
+        <Label Content="Order Details" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,10,0,0"/>
+        <DataGrid x:Name="dgOrderDetails" Margin="420,50,10,189" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Book Title" Binding="{Binding BookTitle}" Width="*"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- New Order Section -->
+        <Label Content="Create New Order" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,261,0,0"/>
+        <ComboBox x:Name="cboBooks" Margin="420,314,10,90" Height="30" 
+                  DisplayMemberPath="Title" SelectedValuePath="Id"/>
+        <TextBox x:Name="txtQuantity" Margin="221,314,400,0" VerticalAlignment="Top" Height="32"/>
+        <Button Content="Add to Order" HorizontalAlignment="Left" Margin="310,375,0,0" VerticalAlignment="Top" Width="100" Click="btnAddToOrder_Click"/>
+        <Button Content="Place Order" HorizontalAlignment="Left" Margin="590,375,0,0" VerticalAlignment="Top" Width="100" Click="btnPlaceOrder_Click"/>
+        <Label x:Name="lblQuantity" Content="Quantity:" HorizontalAlignment="Left" Height="31" Margin="221,278,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label x:Name="lblBookTitle" Content="Book TItle:" HorizontalAlignment="Left" Height="31" Margin="420,278,0,0" VerticalAlignment="Top" Width="115"/>
+
+    </Grid>
+</Window>

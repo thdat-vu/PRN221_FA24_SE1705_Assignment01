@@ -28,6 +28,6 @@ namespace BookManagement_Daos
 			context = new BookManagementContext();
 		}
 
-		public Account GetAccount(int username) => context.Accounts.SingleOrDefault(a => a.Username.Equals(username));
+		public Account GetAccount(string username) => context.Accounts.SingleOrDefault(a => a.Username.Equals(username));
 	}
 }

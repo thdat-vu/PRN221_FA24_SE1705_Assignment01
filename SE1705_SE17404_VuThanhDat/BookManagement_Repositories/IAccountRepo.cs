@@ -9,6 +9,6 @@ namespace BookManagement_Repositories
 {
 	public interface IAccountRepo
 	{
-		public Account GetAccount(int id);
+		public Account GetAccount(string username);
 	}
 }
