@@ -7,22 +7,23 @@
         mc:Ignorable="d"
         Title="AdminOrderWindow" Height="500
         " Width="800" Loaded="Window_Loaded">
-    <Grid Margin="0,0,0,-134">
-        <Label Content="Admin Order Management" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Margin="0,10,0,0"/>
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Admin Order Management" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Margin="0,10,0,0" FontWeight="Bold"/>
 
         <!-- Order DataGrid -->
-        <Label Content="Orders" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top"/>
-        
+        <Label Content="Orders" HorizontalAlignment="Left" Margin="20,59,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+
 
         <!-- OrderDetail DataGrid -->
-        <Label Content="Order Details" HorizontalAlignment="Left" Margin="20,237,0,0" VerticalAlignment="Top"/>
-        
+        <Label Content="Order Details" HorizontalAlignment="Left" Margin="20,237,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+
 
         <!-- Action Buttons -->
-        <Button Content="Edit Order Detail" HorizontalAlignment="Left" Margin="82,439,0,0" VerticalAlignment="Top" Width="100" Click="btnEditOrderDetail_Click"/>
-        <Button Content="Delete Order Detail" HorizontalAlignment="Left" Margin="326,439,0,0" VerticalAlignment="Top" Width="100" Click="btnDeleteOrderDetail_Click"/>
-        <Button Content="Close" HorizontalAlignment="Right" Margin="0,434,39,0" VerticalAlignment="Top" Width="100" Click="btnClose_Click"/>
+        <Button Content="Edit Order Detail" HorizontalAlignment="Left" Margin="43,413,0,0" VerticalAlignment="Top" Width="108" Click="btnEditOrderDetail_Click" Height="46" Background="#FFE0C12A" FontWeight="Bold"/>
+        <Button Content="Delete Order Detail" HorizontalAlignment="Left" Margin="326,413,0,0" VerticalAlignment="Top" Width="132" Click="btnDeleteOrderDetail_Click" Height="46" Background="#FFAFED04" FontWeight="Bold"/>
+        <Button Content="Close" HorizontalAlignment="Right" Margin="0,413,58,0" VerticalAlignment="Top" Width="126" Click="btnClose_Click" Height="46" Background="#FF14D1E0" FontWeight="Bold"/>
         <DataGrid x:Name="dgOrder" HorizontalAlignment="Left" Height="116" Margin="43,101,0,0" VerticalAlignment="Top" Width="699" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dgOrder_SelectionChanged"/>
         <DataGrid x:Name="dgOrderDetail" HorizontalAlignment="Left" Height="101" Margin="42,281,0,0" VerticalAlignment="Top" Width="700" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
     </Grid>
 </Window>

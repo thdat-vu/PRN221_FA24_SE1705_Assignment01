@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab01_BookManagement.EditOrderDetailDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab01_BookManagement"
+        mc:Ignorable="d"
+        Title="Edit Order Detail" Height="200" Width="300" WindowStartupLocation="CenterOwner">
+    <Grid Margin="0,0,0,-16">
+        <Grid Margin="0,0,0,-13">
+            <Label Content="Quantity:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0"/>
+            <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="80,20,0,0" VerticalAlignment="Top" Width="180"/>
+
+            <Label Content="Price:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0"/>
+            <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="80,60,0,0" VerticalAlignment="Top" Width="180"/>
+
+            <Button Content="OK" Width="75" Height="30" HorizontalAlignment="Left" Margin="39,109,0,45" Click="btnOK_Click"/>
+            <Button Content="Cancel" Width="75" Height="30" HorizontalAlignment="Right" Margin="0,109,56,45" Click="btnCancel_Click"/>
+        </Grid>
+    </Grid>
+</Window>

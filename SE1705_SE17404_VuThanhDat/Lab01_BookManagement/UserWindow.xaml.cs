@@ -1,4 +1,5 @@
 ﻿using BookManagement_BusinessObjects;
+using BookManagement_BusinessObjects.ViewModel;
 using BookManagement_Services;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,7 @@ namespace Lab01_BookManagement
         private readonly IOrderService orderService;
         private readonly IBookService bookService;
         private List<OrderDetail> newOrderDetails;
+        private List<OrderDetailViewModel> newOrderDetailViewModels;
         private int userId;
         public UserWindow(int userId)
 		{
@@ -32,7 +34,7 @@ namespace Lab01_BookManagement
             bookService = new BookService();
             this.userId = userId;
             newOrderDetails = new List<OrderDetail>();
-
+            newOrderDetailViewModels = new List<OrderDetailViewModel>();
             LoadUserOrders();
             LoadBooks();
         }
@@ -55,8 +57,26 @@ namespace Lab01_BookManagement
         {
             if (dgUserOrders.SelectedItem is Order selectedOrder)
             {
+                //var orderDetails = orderService.GetOrderDetails(selectedOrder.Id);
+                //dgOrderDetails.ItemsSource = orderDetails;
+
+                // Fetch the raw order details for the selected order
                 var orderDetails = orderService.GetOrderDetails(selectedOrder.Id);
-                dgOrderDetails.ItemsSource = orderDetails;
+
+                // Transform order details to OrderDetailViewModel
+                var orderDetailViewModels = orderDetails.Select(detail =>
+                {
+                    var book = bookService.GetBook(detail.BookId); // Fetch book title based on BookId
+                    return new OrderDetailViewModel
+                    {
+                        BookTitle = book?.Title ?? "Unknown", // Use "Unknown" if book not found
+                        Quantity = detail.Quantity,
+                        Price = detail.Price
+                    };
+                }).ToList();
+
+                // Set the transformed list as the ItemsSource for the order details DataGrid
+                dgOrderDetails.ItemsSource = orderDetailViewModels;
             }
         }
 
@@ -71,9 +91,19 @@ namespace Lab01_BookManagement
                     Price = selectedBook.Price,
                     // BookTitle = selectedBook.Title // Assuming this is a display property in OrderDetail
                 };
+
+                // Create an OrderDetailViewModel with the BookTitle
+                var orderDetailViewModel = new OrderDetailViewModel
+                {
+                    BookTitle = selectedBook.Title,
+                    Quantity = quantity,
+                    Price = selectedBook.Price
+                };
                 newOrderDetails.Add(orderDetail);
+                newOrderDetailViewModels.Add(orderDetailViewModel);
                 dgOrderDetails.ItemsSource = null; // Refresh the DataGrid view
-                dgOrderDetails.ItemsSource = newOrderDetails;
+                //dgOrderDetails.ItemsSource = newOrderDetails;
+                dgOrderDetails.ItemsSource = newOrderDetailViewModels;
                 txtQuantity.Clear();
             }
             else
@@ -108,6 +138,11 @@ namespace Lab01_BookManagement
             {
                 MessageBox.Show("Failed to place order.");
             }
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

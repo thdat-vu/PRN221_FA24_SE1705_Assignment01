@@ -65,7 +65,7 @@ namespace BookManagement_Daos
                                     BookId = od.BookId,
                                     Quantity = od.Quantity,
                                     Price = od.Price,
-                                    BookTitle = b.Title // Fetch BookTitle here
+                                    //BookTitle = b.Title // Fetch BookTitle here
                                 }).ToList();
 
             return orderDetails;

@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="AdminWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Label x:Name="lblPage" Content="Admin Book Management" HorizontalAlignment="Left" Height="43" Margin="227,10,0,0" VerticalAlignment="Top" Width="309" FontSize="24"/>
-        <Label Content="Title" HorizontalAlignment="Left" Height="28" Margin="34,53,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="lblPage" Content="Admin Book Management" HorizontalAlignment="Left" Height="43" Margin="227,10,0,0" VerticalAlignment="Top" Width="309" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Title" HorizontalAlignment="Left" Height="28" Margin="62,53,0,0" VerticalAlignment="Top" Width="90"/>
         <DataGrid x:Name="dgBook" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="71,150,61,149" SelectionChanged="dgBook_SelectionChanged"/>
         <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="28" Margin="157,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
-        <Label Content="Author" HorizontalAlignment="Left" Margin="34,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="Author" HorizontalAlignment="Left" Margin="60,101,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtAuthor" HorizontalAlignment="Left" Height="28" Margin="157,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
         <Label Content="Category" HorizontalAlignment="Left" Height="28" Margin="404,53,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Content="Price" HorizontalAlignment="Left" Height="28" Margin="404,99,0,0" VerticalAlignment="Top" Width="91"/>
         <TextBox x:Name="TxtPrice" HorizontalAlignment="Left" Height="28" Margin="527,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212"/>
         <ComboBox x:Name="cboCategory" HorizontalAlignment="Left" Height="22" Margin="527,56,0,0" VerticalAlignment="Top" Width="212"/>
-        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="98,333,0,0" VerticalAlignment="Top" Height="41" Width="109" Click="btnCreate_Click"/>
-        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="244,333,0,0" VerticalAlignment="Top" Height="41" Width="104" Click="btnUpdate_Click"/>
-        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="382,330,0,0" VerticalAlignment="Top" Height="46" Width="86" RenderTransformOrigin="0.233,0.527" Click="btnDelete_Click"/>
-        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="635,328,0,0" VerticalAlignment="Top" Height="46" Width="104" Click="btnClose_click"/>
-        <Button x:Name="btnOrders" Content="Manage Orders" HorizontalAlignment="Left" Height="48" Margin="510,328,0,0" VerticalAlignment="Top" Width="101" Click="btnOrders_Click"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="71,332,0,0" VerticalAlignment="Top" Height="40" Width="109" Click="btnCreate_Click" FontWeight="Bold" Background="#FF14C8AE"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="227,333,0,0" VerticalAlignment="Top" Height="41" Width="104" Click="btnUpdate_Click" FontWeight="Bold" Background="#FFCFCC39"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="382,330,0,0" VerticalAlignment="Top" Height="46" Width="86" RenderTransformOrigin="0.233,0.527" Click="btnDelete_Click" FontWeight="Bold" Background="#FFF62C0A"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="635,328,0,0" VerticalAlignment="Top" Height="46" Width="104" Click="btnClose_click" FontWeight="Bold" Background="#FF028F85"/>
+        <Button x:Name="btnOrders" Content="Manage Orders" HorizontalAlignment="Left" Height="48" Margin="510,328,0,0" VerticalAlignment="Top" Width="101" Click="btnOrders_Click" FontWeight="Bold" Background="#FFECF4F3"/>
 
     </Grid>
 </Window>

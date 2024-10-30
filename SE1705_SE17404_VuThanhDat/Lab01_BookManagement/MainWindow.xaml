@@ -9,10 +9,19 @@
     <Grid>
         <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="64,116,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="64,163,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" Margin="0,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548"  FontSize="18"/>
-        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,167,0,0" VerticalAlignment="Top" Width="548" FontSize="24"/>
-        <Label x:Name="lblLogin" Content="Login Administrator" HorizontalAlignment="Center" Height="55" Margin="60,10,0,0" VerticalAlignment="Top" Width="452" FontSize="32"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="126,217,0,0" VerticalAlignment="Top" Height="56" Width="194" Background="#FFDFC3B1" Click="btnLogin_Click"/>
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="459,217,0,0" VerticalAlignment="Top" Height="56" Width="215" Background="#FFCFC459" Click="btnCancel_Click"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="211,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445"  FontSize="18"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="212,167,0,0" VerticalAlignment="Top" Width="442" FontSize="24" RenderTransformOrigin="0.5,0.5">
+            <PasswordBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.005"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </PasswordBox.RenderTransform>
+        </PasswordBox>
+        <Label x:Name="lblLogin" Content="Book Management" HorizontalAlignment="Center" Height="55" Margin="60,10,0,0" VerticalAlignment="Top" Width="452" FontSize="32" FontWeight="Bold"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="126,245,0,0" VerticalAlignment="Top" Height="56" Width="194" Background="#FFDFC3B1" Click="btnLogin_Click" FontWeight="Bold"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="461,245,0,0" VerticalAlignment="Top" Height="56" Width="215" Background="#FFCFC459" Click="btnCancel_Click" FontWeight="Bold"/>
     </Grid>
 </Window>

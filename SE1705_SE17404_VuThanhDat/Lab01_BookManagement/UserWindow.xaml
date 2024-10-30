@@ -8,8 +8,8 @@
         Title="UserWindow" Height="450" Width="800">
     <Grid>
         <!-- Orders Section -->
-        <Label Content="Your Orders" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
-        <DataGrid x:Name="dgUserOrders" Margin="10,50,400,189" 
+        <Label Content="Your Orders" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontWeight="Bold"/>
+        <DataGrid x:Name="dgUserOrders" Margin="10,50,400,217" 
                   AutoGenerateColumns="False" SelectionChanged="dgUserOrders_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Order ID" Binding="{Binding Id}" Width="*"/>
@@ -19,8 +19,8 @@
         </DataGrid>
 
         <!-- Order Details Section -->
-        <Label Content="Order Details" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,10,0,0"/>
-        <DataGrid x:Name="dgOrderDetails" Margin="420,50,10,189" AutoGenerateColumns="False">
+        <Label Content="Order Details" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,10,0,0" FontWeight="Bold"/>
+        <DataGrid x:Name="dgOrderDetails" Margin="420,50,10,217" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Book Title" Binding="{Binding BookTitle}" Width="*"/>
                 <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
@@ -29,14 +29,14 @@
         </DataGrid>
 
         <!-- New Order Section -->
-        <Label Content="Create New Order" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,261,0,0"/>
-        <ComboBox x:Name="cboBooks" Margin="420,314,10,90" Height="30" 
-                  DisplayMemberPath="Title" SelectedValuePath="Id"/>
+        <Label Content="Create New Order" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,261,0,0" FontWeight="Bold"/>
         <TextBox x:Name="txtQuantity" Margin="221,314,400,0" VerticalAlignment="Top" Height="32"/>
-        <Button Content="Add to Order" HorizontalAlignment="Left" Margin="310,375,0,0" VerticalAlignment="Top" Width="100" Click="btnAddToOrder_Click"/>
-        <Button Content="Place Order" HorizontalAlignment="Left" Margin="590,375,0,0" VerticalAlignment="Top" Width="100" Click="btnPlaceOrder_Click"/>
+        <Button Content="Add to Order" HorizontalAlignment="Left" Margin="105,365,0,0" VerticalAlignment="Top" Width="140" Click="btnAddToOrder_Click" Height="35" Background="#FFC84141"/>
+        <Button Content="Place Order" HorizontalAlignment="Left" Margin="350,365,0,0" VerticalAlignment="Top" Width="118" Click="btnPlaceOrder_Click" RenderTransformOrigin="0.508,0.643" Height="35" Background="#FFDDCA13"/>
         <Label x:Name="lblQuantity" Content="Quantity:" HorizontalAlignment="Left" Height="31" Margin="221,278,0,0" VerticalAlignment="Top" Width="105"/>
-        <Label x:Name="lblBookTitle" Content="Book TItle:" HorizontalAlignment="Left" Height="31" Margin="420,278,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="lblBookTitle" Content="Book Title:" HorizontalAlignment="Left" Height="33" Margin="477,276,0,0" VerticalAlignment="Top" Width="115"/>
+        <ComboBox x:Name="cboBooks" HorizontalAlignment="Left" Height="32" Margin="478,314,0,0" VerticalAlignment="Top" Width="276"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Height="35" Margin="605,365,0,0" VerticalAlignment="Top" Width="125" Click="btnClose_Click" Background="#FF26D6C9"/>
 
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
 ﻿using BookManagement_BusinessObjects;
+using BookManagement_BusinessObjects.ViewModel;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -36,11 +37,47 @@ namespace BookManagement_Daos
 		// Get all OrderDetails
 		public List<OrderDetail> GetOrderDetails() => context.OrderDetails.ToList();
 
-		// Get OrderDetails by OrderId (useful when displaying details for a specific order)
-		public List<OrderDetail> GetOrderDetailsByOrderId(int orderId) => context.OrderDetails.Where(od => od.OrderId == orderId).ToList();
+        // Get OrderDetails by OrderId (useful when displaying details for a specific order)
+        public List<OrderDetail> GetOrderDetailsByOrderId(int orderId) => context.OrderDetails.Where(od => od.OrderId == orderId).ToList();
 
-		// Add a new OrderDetail
-		public bool AddOrderDetail(OrderDetail orderDetail)
+        //      public List<OrderDetail> GetOrderDetailsByOrderId(int orderId)
+        //{
+        //          var orderDetails = (from od in context.OrderDetails
+        //                              join b in context.Books on od.BookId equals b.Id
+        //                              where od.OrderId == orderId
+        //                              select new OrderDetail
+        //                              {
+        //                                  Id = od.Id,
+        //                                  OrderId = od.OrderId,
+        //                                  BookId = od.BookId,
+        //                                  Quantity = od.Quantity,
+        //                                  Price = od.Price,
+        //                                  BookTitle = b.Title // Get the BookTitle from the Book table
+        //                              }).ToList();
+        //	return orderDetails;
+        //      }
+
+        public List<OrderDetailViewModel> GetOrderDetailsViewModelByOrderId(int orderId)
+		{
+            var orderDetails = (from od in context.OrderDetails
+                                join b in context.Books on od.BookId equals b.Id
+                                where od.OrderId == orderId
+                                select new OrderDetailViewModel
+                                {
+                                    Id = od.Id,
+                                    OrderId = od.OrderId,
+                                    BookId = od.BookId,
+                                    Quantity = od.Quantity,
+                                    Price = od.Price,
+                                    BookTitle = b.Title // Get the BookTitle from the Book table
+                                }).ToList();
+
+            return orderDetails;
+        }
+
+
+        // Add a new OrderDetail
+        public bool AddOrderDetail(OrderDetail orderDetail)
 		{
 			bool isSuccess = false;
 			if (orderDetail != null)

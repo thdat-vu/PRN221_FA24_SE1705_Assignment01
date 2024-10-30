@@ -32,27 +32,59 @@ namespace Lab01_BookManagement
 
         private void btnEditOrderDetail_Click(object sender, RoutedEventArgs e)
         {
+            //if (dgOrderDetail.SelectedItem is OrderDetail selectedOrderDetail)
+            //{
+            //    // Prompt the user for a new quantity and price
+            //    int newQuantity = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Enter new quantity:", "Edit Order Detail", selectedOrderDetail.Quantity.ToString()));
+            //    decimal newPrice = decimal.Parse(Microsoft.VisualBasic.Interaction.InputBox("Enter new price:", "Edit Order Detail", selectedOrderDetail.Price.ToString()));
+
+            //    selectedOrderDetail.Quantity = newQuantity;
+            //    selectedOrderDetail.Price = newPrice;
+
+            //    if (orderDetailService.UpdateOrderDetail(selectedOrderDetail))
+            //    {
+            //        MessageBox.Show("Order detail updated successfully.");
+            //        LoadOrderDetails(selectedOrderDetail.OrderId);  // Refresh order details
+
+            //        // Update the order's total amount
+            //        UpdateOrderTotalAmount(selectedOrderDetail.OrderId);
+            //        LoadOrders();  // Refresh the order list to show the updated total amount
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Error updating order detail.");
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Please select an order detail to edit.");
+            //}
+
             if (dgOrderDetail.SelectedItem is OrderDetail selectedOrderDetail)
             {
-                // Prompt the user for a new quantity and price
-                int newQuantity = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Enter new quantity:", "Edit Order Detail", selectedOrderDetail.Quantity.ToString()));
-                decimal newPrice = decimal.Parse(Microsoft.VisualBasic.Interaction.InputBox("Enter new price:", "Edit Order Detail", selectedOrderDetail.Price.ToString()));
+                // Open the custom dialog with initial quantity and price values
+                var dialog = new EditOrderDetailDialog(selectedOrderDetail.Quantity, selectedOrderDetail.Price);
 
-                selectedOrderDetail.Quantity = newQuantity;
-                selectedOrderDetail.Price = newPrice;
-
-                if (orderDetailService.UpdateOrderDetail(selectedOrderDetail))
+                // Show dialog and process only if the user clicks OK
+                if (dialog.ShowDialog() == true)
                 {
-                    MessageBox.Show("Order detail updated successfully.");
-                    LoadOrderDetails(selectedOrderDetail.OrderId);  // Refresh order details
+                    selectedOrderDetail.Quantity = dialog.Quantity.Value;
+                    selectedOrderDetail.Price = dialog.Price.Value;
 
-                    // Update the order's total amount
-                    UpdateOrderTotalAmount(selectedOrderDetail.OrderId);
-                    LoadOrders();  // Refresh the order list to show the updated total amount
-                }
-                else
-                {
-                    MessageBox.Show("Error updating order detail.");
+                    // Save the updated order detail
+                    if (orderDetailService.UpdateOrderDetail(selectedOrderDetail))
+                    {
+                        MessageBox.Show("Order detail updated successfully.");
+                        LoadOrderDetails(selectedOrderDetail.OrderId);  // Refresh order details
+
+                        // Update the order's total amount
+                        UpdateOrderTotalAmount(selectedOrderDetail.OrderId);
+                        LoadOrders();  // Refresh the order list to show the updated total amount
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error updating order detail.");
+                    }
                 }
             }
             else
